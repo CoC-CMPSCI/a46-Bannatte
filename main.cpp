@@ -30,7 +30,9 @@ int main()
     }
 
     double finalScholarship = scholarship * factor;
-    cout << setprecision(2) << fixed;
+
+    cout << fixed << setprecision(2);
     cout << "Decided Factor: " << factor << ", Final Scholarship Amount: " << finalScholarship << endl;
+
     return 0;
 }
